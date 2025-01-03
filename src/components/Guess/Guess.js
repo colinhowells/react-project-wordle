@@ -1,6 +1,6 @@
 import React from 'react';
-import { range } from '../../utils';
 import { WORD_LENGTH } from '../../constants';
+import { range } from '../../utils';
 
 function Guess({ guess }) {
 	return (

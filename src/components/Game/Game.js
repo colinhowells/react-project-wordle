@@ -1,8 +1,8 @@
 import React from 'react';
+import { NUM_OF_GUESSES_ALLOWED } from '../../constants';
 import { sample } from '../../utils';
 import { checkGuess } from '../../game-helpers';
 import { WORDS } from '../../data';
-import { NUM_OF_GUESSES_ALLOWED } from '../../constants';
 import GuessForm from '../GuessForm';
 import GuessResults from '../GuessResults';
 import Keyboard from '../Keyboard';
