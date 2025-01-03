@@ -12,7 +12,6 @@ function GuessForm({ addGuess, verdict, resetGame }) {
 	}
 
 	function handleInput(e) {
-		if (e.target.value.length > WORD_LENGTH) return;
 		setGuess(e.target.value.toUpperCase());
 		if (e.target.validity.patternMismatch) {
 			e.target.setCustomValidity(`Needs to be ${WORD_LENGTH} letters!`);
